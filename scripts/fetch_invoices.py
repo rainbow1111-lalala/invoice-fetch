@@ -480,7 +480,7 @@ def main():
     p.add_argument("--profile-dir", default=str(Path.home() / ".invoice-fetch" / "profile"))
     p.add_argument("--days", type=int, default=31, help="只检索最近 N 天，默认 31，0 表示全部")
     p.add_argument("--output-dir", default=str(Path.home() / "Downloads" / "发票"))
-    p.add_argument("--default-title", default="北京德恒（深圳）律师事务所")
+    p.add_argument("--default-title", default="", help="未解析到抬头时的兜底抬头，默认空（记为“待补充”）")
     args = p.parse_args()
     {"open-login": cmd_open_login, "list": cmd_list, "collect": cmd_collect}[args.command](args)
 
