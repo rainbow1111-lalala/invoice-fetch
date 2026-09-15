@@ -1,0 +1,20 @@
+{
+  "name": "invoice-fetch",
+  "title": "电子发票自动收取与报销整理",
+  "title_en": "E-Invoice Auto-Fetch & Reimbursement Organizer",
+  "version": "1.0.0",
+  "author": "德恒深圳律所",
+  "author_org": "",
+  "category": "办公效率",
+  "description": "自动登录你的邮箱（新浪、163、126、QQ、Gmail、Outlook 等均可），把收件箱里的电子发票（PDF 或图片）批量下载下来，邮件里只有链接的也会点开链接把 PDF 发票取回，按「金额-项目-抬头-发票号」统一重命名，并生成《发票清单.xlsx》（含总金额）与《发票_四拼一汇总.pdf》（一页四张，可直接打印贴报销单）。只读收件箱、不删改邮件，登录密码只在本机输入或走系统钥匙串、不上传。适合律师与法务在报销季批量归集与核对发票。",
+  "description_en": "Logs into your mailbox (Sina, 163, 126, QQ, Gmail, Outlook, and more), batch-downloads the e-invoices (PDF or image) from your inbox, follows in-email links to fetch PDF invoices when there is no attachment, renames everything as amount-item-payee-invoiceNo, and produces an invoice list (.xlsx with a total) plus a four-per-page merged PDF ready to print for reimbursement. It only reads the inbox and never deletes or sends mail; the login password is entered locally or read from the system keychain and is never uploaded. Fits lawyers and in-house teams batch-collecting and reconciling invoices at reimbursement time.",
+  "boundaries": "见 SKILL.md 能力边界与「本 skill 不做什么」。",
+  "license": "internal",
+  "visibility": "open",
+  "reg_no": 7,
+  "review": {
+    "self_check": "2026-07-26",
+    "ai_scan": "2026-07-26",
+    "human_review": { "reviewer": "黄霁", "date": "2026-07-26" }
+  }
+}
